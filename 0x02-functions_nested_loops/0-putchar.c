@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 /**
  * main - program that prints out putchar
  *
@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-/*First we create an array*/
-	char word[] = "_putchar";
-
-	for (int count = 0; count < MAXSTRING; count++)
-	{
-		putchar(word[count]);
-	}
-	return (0);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 }
