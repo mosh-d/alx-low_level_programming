@@ -1,4 +1,4 @@
-#include "main.h"
+include "main.h"
 
 /**
  * _memcpy - Copies @n bytes from the memory area pointed
@@ -9,7 +9,7 @@
  *
  * Return: A pointer to the destination buffer @dest.
  */
-void *_memcpy(void *dest, const void *src, size_t n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int index;
 	unsigned char *destination = dest;
